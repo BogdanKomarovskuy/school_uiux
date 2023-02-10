@@ -49,4 +49,65 @@ header .top-menu button {
 .info-kurs {
   background: #E9F1FE;
   height: 850px;
+}
+.info-kurs .block-info {
+  display: flex;
+  align-self: center;
+}
+.info-kurs .block-info p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  color: #181818;
+}
+.info-kurs .block-info button {
+  background: #7598DC;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 8px;
+  width: 378px;
+  height: 77px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  /* identical to box height, or 142% */
+  text-align: center;
+  text-transform: uppercase;
+}
+
+footer {
+  background: #2D4F70;
+  height: 253px;
+}
+footer h1 {
+  color: #ffffff;
+}
+footer .main-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 65px;
+}
+footer .main-footer h3 {
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 12px;
+}
+footer .main-footer .menu {
+  display: flex;
+}
+footer .main-footer li {
+  list-style-type: none;
+  margin-bottom: 9px;
+}
+footer .main-footer a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
